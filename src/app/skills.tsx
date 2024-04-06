@@ -20,19 +20,19 @@ const SKILLS = [
       "I excel in analyzing complex datasets, deriving actionable insights, and presenting findings to support informed decision-making for business growth and optimization.",
   },
   {
-    icon: FingerPrintIcon,
+    icon: ServerIcon,
     title: "Mobile App Development",
     children:
       " I specialize in creating responsive and intuitive mobile apps that work seamlessly across iOS & Android devices. From concept to deployment, I handle every stage of the development process.",
   },
   {
-    icon: SwatchIcon,
+    icon: CloudIcon,
     title: "Critical Thinking",
     children:
       "I possess strong analytical and critical-thinking abilities, enabling me to evaluate information objectively, anticipate potential issues, and make informed decisions that drive business success.",
   },
   {
-    icon: HashtagIcon,
+    icon: ChartBarIcon,
     title: " Web Optimization",
     children:
       ".",
