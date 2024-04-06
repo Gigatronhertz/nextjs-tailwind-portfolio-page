@@ -8,15 +8,16 @@ import {
   HashtagIcon,
   EyeIcon,
   DocumentTextIcon,
+  
 } from "@heroicons/react/24/solid";
 import { SkillCard } from "@/components";
 
 const SKILLS = [
   {
     icon: RectangleGroupIcon,
-    title: "Frontend Web Development:",
+    title: "Data Analysis:",
     children:
-      "Creating beautiful and functional web experiences is my forte. Using the latest technologies and best practices, I design and build websites that captivate and engage users.",
+      "I excel in analyzing complex datasets, deriving actionable insights, and presenting findings to support informed decision-making for business growth and optimization.",
   },
   {
     icon: FingerPrintIcon,
@@ -26,15 +27,15 @@ const SKILLS = [
   },
   {
     icon: SwatchIcon,
-    title: "Technology Stack",
+    title: "Critical Thinking",
     children:
-      "I'm well-versed in the industry's most popular frontend technologies, including HTML5, CSS3, JavaScript, and frameworks like React and React Native.",
+      "I possess strong analytical and critical-thinking abilities, enabling me to evaluate information objectively, anticipate potential issues, and make informed decisions that drive business success.",
   },
   {
     icon: HashtagIcon,
     title: " Web Optimization",
     children:
-      "Performance matters. I optimize websites and apps for speed, ensuring your users enjoy a fast and responsive experience, which in turn boosts user satisfaction and SEO rankings.",
+      ".",
   },
   {
     icon: EyeIcon,
@@ -44,9 +45,9 @@ const SKILLS = [
   },
   {
     icon: DocumentTextIcon,
-    title: "Testing and Quality Assurance",
+    title: "Requirements Gathering",
     children:
-      "I rigorously test and debug applications to guarantee a bug-free and secure environment for users. Your peace of mind is as important to me as the functionality of your project.",
+      "I am skilled in eliciting, documenting, and prioritizing business requirements through various techniques, ensuring that project deliverables align with stakeholder expectations and strategic objectives..",
   },
 ];
 
@@ -67,7 +68,7 @@ export function Skills() {
             As a business analyst, I specialize in transforming data into strategic
            insights, fostering collaboration, and driving innovation. 
            With a keen eye for optimization and a commitment to excellence, I empower decision-makers to navigate challenges and capitalize on opportunities 
-          effectively. Let's work together to elevate your business to new heights.
+          effectively. Let&apos;s work together to elevate your business to new heights.
         </Typography>
       </div>
       <div className="container mx-auto grid grid-cols-1 gap-y-10 md:grid-cols-2 lg:grid-cols-3">
