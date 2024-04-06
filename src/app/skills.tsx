@@ -6,7 +6,7 @@ import {
   FingerPrintIcon,
   SwatchIcon,
   HashtagIcon,
-  EyeIcon,
+  Folder,
   DocumentTextIcon,
   
 } from "@heroicons/react/24/solid";
