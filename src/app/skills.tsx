@@ -3,10 +3,10 @@
 import { Typography } from "@material-tailwind/react";
 import {
   RectangleGroupIcon,
-  FingerPrintIcon,
-  SwatchIcon,
-  HashtagIcon,
-  Folder,
+  CloudIcon,
+  ServerIcon,
+  ChartBarIcon,
+  EyeIcon,
   DocumentTextIcon,
   
 } from "@heroicons/react/24/solid";
