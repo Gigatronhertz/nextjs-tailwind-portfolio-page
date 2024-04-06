@@ -5,7 +5,7 @@ import Image from "next/image";
 import { Typography, Card, CardBody, Avatar } from "@material-tailwind/react";
 
 export function Testimonial() {
-  const [active, setActive] = React.useState(3);
+  const [active, setActive] = React.useState(5);
 
   return (
     <section className="py-12 px-8 lg:py-24">
@@ -53,7 +53,7 @@ export function Testimonial() {
                   alt="spotify"
                   size="sm"
                   className={`cursor-pointer ${
-                    active === 1 ? "opacity-100" : "opacity-50"
+                    active === 5 ? "opacity-100" : "opacity-50"
                   }`}
                   onClick={() => setActive(5)}
                 />
