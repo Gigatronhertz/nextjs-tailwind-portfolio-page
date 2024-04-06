@@ -6,7 +6,7 @@ import {
   CloudIcon,
   ServerIcon,
   ChartBarIcon,
-  EyeIcon,
+  ChartPieIcon,
   DocumentTextIcon,
   
 } from "@heroicons/react/24/solid";
@@ -15,41 +15,42 @@ import { SkillCard } from "@/components";
 const SKILLS = [
   {
     icon: RectangleGroupIcon,
-    title: "Data Analysis:",
+    title: "Data Analysis",
     children:
-      "I excel in analyzing complex datasets, deriving actionable insights, and presenting findings to support informed decision-making for business growth and optimization.",
+      "Proficient in analyzing complex datasets, extracting actionable insights, and presenting findings to drive informed decision-making for business growth and optimization.",
   },
   {
     icon: ServerIcon,
-    title: "Mobile App Development",
+    title: "Server Management",
     children:
-      " I specialize in creating responsive and intuitive mobile apps that work seamlessly across iOS & Android devices. From concept to deployment, I handle every stage of the development process.",
+      "Specializing in managing servers to ensure optimal performance, security, and reliability, crucial for supporting business operations and scalability.",
   },
   {
     icon: CloudIcon,
-    title: "Critical Thinking",
+    title: "Cloud Computing",
     children:
-      "I possess strong analytical and critical-thinking abilities, enabling me to evaluate information objectively, anticipate potential issues, and make informed decisions that drive business success.",
+      "Possessing expertise in cloud computing technologies to efficiently store, process, and analyze data, enabling scalable solutions for business insights and growth.",
   },
   {
     icon: ChartBarIcon,
-    title: " Web Optimization",
+    title: "Statistical Analysis",
     children:
-      ".",
+      "Proficient in conducting statistical analysis to identify meaningful trends, patterns, and correlations in data, facilitating data-driven decision-making for business optimization.",
   },
   {
-    icon: EyeIcon,
-    title: "User-Centric Design",
+    icon: ChartPieIcon,
+    title: "Data Visualization",
     children:
-      "My development goes hand-in-hand with an eye for design. I create user interfaces that are not only functional but also aesthetically pleasing, providing a seamless and enjoyable user journey.",
+      "Skilled in creating visually engaging data visualizations to effectively communicate insights, empowering stakeholders to comprehend complex information and drive strategic actions.",
   },
   {
     icon: DocumentTextIcon,
-    title: "Requirements Gathering",
+    title: "Documentation Management",
     children:
-      "I am skilled in eliciting, documenting, and prioritizing business requirements through various techniques, ensuring that project deliverables align with stakeholder expectations and strategic objectives..",
+      "Adept in managing documentation processes, ensuring clarity, accuracy, and accessibility of information to support efficient business operations and meet compliance requirements.",
   },
 ];
+
 
 export function Skills() {
   return (
