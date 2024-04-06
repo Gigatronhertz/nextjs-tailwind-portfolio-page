@@ -19,7 +19,7 @@ export function Testimonial() {
             className="mx-auto w-full px-4 font-normal !text-gray-500 lg:w-8/12"
           >
             Discover what clients have to say about their experiences working
-            with me. My client&apos;s satisfaction is my greatest achievement!
+            with me. My client&apos;s success is my greatest priority
           </Typography>
         </div>
         <Card color="transparent" shadow={false} className="py-8 lg:flex-row">
@@ -30,11 +30,11 @@ export function Testimonial() {
                 color="blue-gray"
                 className="mb-4 font-bold lg:max-w-xs"
               >
-                Mobile App Development
+                Business Analytics
               </Typography>
               <Typography className="mb-3 w-full lg:w-8/12 font-normal !text-gray-500">
-                I had the pleasure of working with Lily on a critical web
-                development project, and I can confidently say that their
+                I had the pleasure of working with Lily on a business analytics
+                 project, and I can confidently say that their
                 expertise and professionalism exceeded my expectations.
               </Typography>
               <Typography variant="h6" color="blue-gray" className="mb-0.5">
@@ -44,7 +44,7 @@ export function Testimonial() {
                 variant="small"
                 className="font-normal mb-5 !text-gray-500"
               >
-                Marketing @ APPLE INC.
+                Marketing @ DMX INC.
               </Typography>
               <div className="flex items-center gap-4">
                 <Avatar
