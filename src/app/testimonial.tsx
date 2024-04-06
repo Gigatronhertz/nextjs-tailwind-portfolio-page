@@ -49,7 +49,7 @@ export function Testimonial() {
               <div className="flex items-center gap-4">
                 <Avatar
                   variant="rounded"
-                  src="/image/avatar1.jpg"
+                  src="/image/avatar4.jpeg"
                   alt="spotify"
                   size="sm"
                   className={`cursor-pointer ${
@@ -60,7 +60,7 @@ export function Testimonial() {
                 <div className="w-[1px] h-[36px] bg-blue-gray-100 "></div>
                 <Avatar
                   variant="rounded"
-                  src="/image/avatar2.jpg"
+                  src="/image/avatar5.jpeg"
                   alt="spotify"
                   size="sm"
                   className={`cursor-pointer ${
@@ -71,7 +71,7 @@ export function Testimonial() {
                 <div className="w-[1px] h-[36px] bg-blue-gray-100" />
                 <Avatar
                   variant="rounded"
-                  src="/image/avatar3.jpg"
+                  src="/image/avatar6.jpeg"
                   alt="spotify"
                   size="sm"
                   className={`cursor-pointer ${
@@ -86,7 +86,7 @@ export function Testimonial() {
                 width={768}
                 height={768}
                 alt="testimonial image"
-                src={`/image/avatar${active}.jpg`}
+                src={`/image/avatar${active}.jpeg`}
                 className="h-full rounded-lg w-full object-cover"
               />
             </div>
