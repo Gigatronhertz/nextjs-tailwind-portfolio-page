@@ -38,12 +38,12 @@ function Hero() {
               </Button>
             </div>
           </div>
-          <Typography variant="small" className="font-normal !text-gray-500">
+          {/* <Typography variant="small" className="font-normal !text-gray-500">
             Read my{" "}
-            {/* <a href="#" className="font-medium underline transition-colors">
+            <a href="#" className="font-medium underline transition-colors">
               Terms and Conditions
-            </a> */}
-          </Typography>
+            </a>
+          </Typography> */}
         </div>
         <Image
           width={1024}
