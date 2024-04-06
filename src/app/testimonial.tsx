@@ -33,7 +33,7 @@ export function Testimonial() {
                 Business Analytics
               </Typography>
               <Typography className="mb-3 w-full lg:w-8/12 font-normal !text-gray-500">
-                I had the pleasure of working with Lily on a business analytics
+                I had the pleasure of working with Daniel on a business analytics
                  project, and I can confidently say that their
                 expertise and professionalism exceeded my expectations.
               </Typography>
@@ -55,7 +55,7 @@ export function Testimonial() {
                   className={`cursor-pointer ${
                     active === 1 ? "opacity-100" : "opacity-50"
                   }`}
-                  onClick={() => setActive(1)}
+                  onClick={() => setActive(4)}
                 />
                 <div className="w-[1px] h-[36px] bg-blue-gray-100 "></div>
                 <Avatar
@@ -66,7 +66,7 @@ export function Testimonial() {
                   className={`cursor-pointer ${
                     active === 2 ? "opacity-100" : "opacity-50"
                   }`}
-                  onClick={() => setActive(2)}
+                  onClick={() => setActive(5)}
                 />
                 <div className="w-[1px] h-[36px] bg-blue-gray-100" />
                 <Avatar
@@ -77,7 +77,7 @@ export function Testimonial() {
                   className={`cursor-pointer ${
                     active === 3 ? "opacity-100" : "opacity-50"
                   }`}
-                  onClick={() => setActive(3)}
+                  onClick={() => setActive(6)}
                 />
               </div>
             </div>
