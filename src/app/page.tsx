@@ -14,14 +14,14 @@ import ContactForm from "./contact-form";
 export default function Portfolio() {
   return (
     <>
-      <Navbar />
+     
       <Hero />
-      <Clients />
+    
       <Skills />
       <Projects />
       <Resume />
       <Testimonial />
-      <PopularClients />
+     
       <ContactForm />
       <Footer />
     </>
