@@ -38,13 +38,13 @@ export function ContactForm() {
                 variant="lead"
                 className="mx-auto mb-8 text-base !text-gray-500"
               >
-                Fill up the form and our Team will get back to you within 24
+                Fill up the form and I will get back to you within 24
                 hours.
               </Typography>
               <div className="flex gap-5">
                 <PhoneIcon className="h-6 w-6 text-white" />
                 <Typography variant="h6" color="white" className="mb-2">
-                  +1(424) 535 3523
+                  +1(267) 804 3920
                 </Typography>
               </div>
               <div className="flex my-2 gap-5">
@@ -115,20 +115,20 @@ export function ContactForm() {
                   variant="lead"
                   className="!text-blue-gray-500 text-sm mb-2"
                 >
-                  What are you interested on?
+                  What are you interested in?
                 </Typography>
                 <div className="-ml-3 mb-14 ">
                   {/* @ts-ignore */}
                   <Radio
                     color="gray"
                     name="type"
-                    label="Design"
+                    label="Analytics"
                     defaultChecked
                   />
                   {/* @ts-ignore */}
                   <Radio color="gray" name="type" label="Development" />
                   {/* @ts-ignore */}
-                  <Radio color="gray" name="type" label="Support" />
+                  <Radio color="gray" name="type" label="Consultation" />
                   {/* @ts-ignore */}
                   <Radio color="gray" name="type" label="Other" />
                 </div>
