@@ -49,13 +49,13 @@ export function Testimonial() {
               <div className="flex items-center gap-4">
                 <Avatar
                   variant="rounded"
-                  src="/image/avatar4.jpeg"
+                  src="/image/avatar4.jpg"
                   alt="spotify"
                   size="sm"
                   className={`cursor-pointer ${
                     active === 1 ? "opacity-100" : "opacity-50"
                   }`}
-                  onClick={() => setActive(4)}
+                  onClick={() => setActive(5)}
                 />
                 <div className="w-[1px] h-[36px] bg-blue-gray-100 "></div>
                 <Avatar
