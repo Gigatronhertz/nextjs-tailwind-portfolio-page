@@ -64,9 +64,10 @@ export function Skills() {
           variant="lead"
           className="mx-auto w-full !text-gray-500 lg:w-10/12"
         >
-          I&apos;m not just a developer; I&apos;m a digital dreamweaver.
-          Crafting immersive online experiences is not just a job but my
-          calling. Discover below how I can help you.
+            As a business analyst, I specialize in transforming data into strategic
+           insights, fostering collaboration, and driving innovation. 
+           With a keen eye for optimization and a commitment to excellence, I empower decision-makers to navigate challenges and capitalize on opportunities 
+          effectively. Let's work together to elevate your business to new heights.
         </Typography>
       </div>
       <div className="container mx-auto grid grid-cols-1 gap-y-10 md:grid-cols-2 lg:grid-cols-3">
