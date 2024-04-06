@@ -19,9 +19,9 @@ function Hero() {
             variant="lead"
             className="mb-4 !text-gray-500 md:pr-16 xl:pr-28"
           >
-            I&apos;m Lily Smith, a passionate web developer based in USA. Here,
-            you&apos;ll get a glimpse of my journey in the world of web
-            development, where creativity meets functionality.
+            I&apos;m Chinaemerem Daniel, a passionate business analyst based in USA. Here,
+            you&apos;ll get a glimpse of my journey in the world of business
+            analytics, looking forward to working with you.
           </Typography>
           <div className="grid">
             <Typography
@@ -49,7 +49,7 @@ function Hero() {
           width={1024}
           height={1024}
           alt="team work"
-          src="/image/image-7.svg"
+          src="/image/image-7.jpg"
           className="h-[36rem] w-full rounded-xl object-cover"
         />
       </div>
