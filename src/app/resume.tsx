@@ -1,6 +1,8 @@
 "use client";
+import Link from 'next/link';
 
 import { Typography, Button } from "@material-tailwind/react";
+
 import {
   ChartBarIcon,
   PuzzlePieceIcon,
@@ -36,7 +38,10 @@ export function Resume() {
             Highly skilled Business analyst with 5+ years of
             experience working with businesses and help them keep up with the modern business trends.
           </Typography>
+          
+          <Link href="/">
           <Button
+          
             variant="text"
             color="gray"
             className="flex items-center gap-2"
@@ -47,6 +52,7 @@ export function Resume() {
               className="h-3.5 w-3.5 text-gray-900"
             />
           </Button>
+          </Link>
         </div>
         <div className="col-span-1 grid gap-y-6 lg:ml-auto pr-0 lg:pr-12 xl:pr-32">
           {RESUME_ITEMS.map((props, idx) => (
