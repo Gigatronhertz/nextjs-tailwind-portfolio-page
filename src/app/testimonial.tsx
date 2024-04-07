@@ -46,10 +46,10 @@ export function Testimonial() {
               >
                 {testimonials[active].text}
               </Typography>
-              <Typography variant="subtitle1" color="blue-gray" className="mb-1">
+              <Typography variant="h3" color="blue-gray" className="mb-1">
                 {testimonials[active].author}
               </Typography>
-              <Typography variant="subtitle2" color="gray">
+              <Typography variant="h3" color="gray">
                 {testimonials[active].position}
               </Typography>
             </div>
