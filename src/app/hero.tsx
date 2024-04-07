@@ -46,8 +46,8 @@ function Hero() {
           </Typography> */}
         </div>
         <Image
-          width={1024}
-          height={1024}
+          width={800}
+          height={1200}
           alt="team work"
           src="/image/image-7.jpg"
           className="h-[40rem] w-full rounded-xl object-cover"
