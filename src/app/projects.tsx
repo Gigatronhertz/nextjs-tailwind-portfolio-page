@@ -28,9 +28,9 @@ export function Projects() {
           variant="lead"
           className="mx-auto w-full px-4 font-normal !text-gray-500 lg:w-6/12"
         >
-          Whether you have a mobile app idea that needs to come to life or a
-          website that requires a facelift, I&apos;m here to turn your digital
-          dreams into reality.
+          Whether your  a small business that needs to understand the market and what works for your company 
+          or your a large business that need to analyze your customer data in oder to make informed choices , I&apos;m here to help make that happen.
+      .
         </Typography>
       </div>
       <div className="container mx-auto grid grid-cols-1 gap-x-10 gap-y-20 md:grid-cols-2 xl:grid-cols-4">
