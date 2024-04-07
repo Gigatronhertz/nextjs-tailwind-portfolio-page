@@ -8,7 +8,7 @@ import { Typography, Card, CardBody, Avatar } from "@material-tailwind/react";
 const testimonials = [
   {
     text: "  I had the pleasure of working with Daniel on a business analytics project, and I can confidently say that their expertise and professionalism exceeded my expectations.",
-    author: "Michael Chen",
+    author: "Lisa",
     position: "CEO @ GT.Solutions"
   },
   {
@@ -46,10 +46,10 @@ export function Testimonial() {
               >
                 {testimonials[active].text}
               </Typography>
-              <Typography variant="h3" color="blue-gray" className="mb-1">
+              <Typography variant="h5" color="blue-gray" className="mb-1">
                 {testimonials[active].author}
               </Typography>
-              <Typography variant="h3" color="gray">
+              <Typography variant="h5" color="gray">
                 {testimonials[active].position}
               </Typography>
             </div>
