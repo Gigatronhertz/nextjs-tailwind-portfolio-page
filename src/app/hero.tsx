@@ -47,10 +47,10 @@ function Hero() {
         </div>
         <Image
           width={800}
-          height={1200}
+          height={800}
           alt="team work"
           src="/image/image-7.jpg"
-          className="h-[36rem] w-half rounded-xl overflow-hidden"
+          className="h-[36rem] w-full rounded-xl overflow-hidden"
           
         />
       </div>
