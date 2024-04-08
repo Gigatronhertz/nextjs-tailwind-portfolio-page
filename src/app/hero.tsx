@@ -50,7 +50,8 @@ function Hero() {
           height={1200}
           alt="team work"
           src="/image/image-7.jpg"
-          className="h-[46rem] w-full rounded-xl object-cover"
+          className="h-[36rem] w-half rounded-xl overflow-hidden"
+          
         />
       </div>
     </header>
